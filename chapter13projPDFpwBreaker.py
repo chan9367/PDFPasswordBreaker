@@ -1,6 +1,6 @@
 import PyPDF2
 
-
+# its in your relevant C:\Users file
 pdf = open('meetingminutes.pdf', 'rb')
 pdfReader = PyPDF2.PdfFileReader(pdf)
 pdfWriter = PyPDF2.PdfFileWriter()
